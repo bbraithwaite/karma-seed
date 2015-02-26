@@ -6,3 +6,6 @@ A basic seed app for new projects using Karma for testing. Contains some opinion
 * uses Istanbul for coverage
 * uses PhantomJS as default browser
  
+## Useful Features
+
+* Ability to switch config based on _process.env.NODE_ENV_ value.
