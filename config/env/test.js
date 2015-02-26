@@ -9,6 +9,6 @@ module.exports = {
     },
     reporters: ['progress', 'coverage'],
     autoWatch: false,
-    singleRun: false
+    singleRun: true
   }
 };
