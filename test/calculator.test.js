@@ -7,7 +7,7 @@
 describe('Calculator', function() {
 
   // API for interacting with the page.
-  var page =  {
+  var controls =  {
     get result() {
       return document.getElementById('result').innerHTML;
     },
@@ -28,7 +28,7 @@ describe('Calculator', function() {
     }
   };
 
-  // inject the basic HTML elements
+  // inject the HTML fixture for the tests
   beforeEach(function() {
     var fixture = '<div id="fixture">' +
       '<input id="x" type="text">' + 
@@ -53,24 +53,24 @@ describe('Calculator', function() {
   });
 
   it('should calculate 3 for 1 + 2', function() {
-    page.x = 1;
-    page.y = 2;
-    page.clickAdd();
-    expect(page.result).toBe('3');
+    controls.x = 1;
+    controls.y = 2;
+    controls.clickAdd();
+    expect(controls.result).toBe('3');
   });
 
   it('should calculate zero for invalid x value', function() {
-    page.x = 'hello';
-    page.y = 2;
-    page.clickAdd();
-    expect(page.result).toBe('0');
+    controls.x = 'hello';
+    controls.y = 2;
+    controls.clickAdd();
+    expect(controls.result).toBe('0');
   });
 
   it('should calculate zero for invalid y value', function() {
-    page.x = 1;
-    page.y = 'goodbye';
-    page.clickAdd();
-    expect(page.result).toBe('0');
+    controls.x = 1;
+    controls.y = 'goodbye';
+    controls.clickAdd();
+    expect(controls.result).toBe('0');
   });
 
 });
