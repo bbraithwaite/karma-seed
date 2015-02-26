@@ -2,9 +2,8 @@
 
 A basic seed app for new projects using Karma for testing. Contains some opinionated config settings such as:
 
-* uses Mocha & Chai/Should for tests/assertions
 * uses Istanbul for coverage
-* uses PhantomJS as default browser
+* uses PhantomJS as default development browser
  
 ## Useful Features
 
