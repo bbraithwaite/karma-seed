@@ -1,0 +1,37 @@
+{
+  "name": "karma-seed",
+  "version": "1.0.0",
+  "description": "A seed project for using the Karma test framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "full-test": "NODE_ENV=test karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbraithwaite/karma-seed"
+  },
+  "keywords": [
+    "karma",
+    "seed",
+    "project"
+  ],
+  "author": "https://github.com/bbraithwaite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbraithwaite/karma-seed/issues"
+  },
+  "homepage": "https://github.com/bbraithwaite/karma-seed",
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "istanbul": "^0.3.6",
+    "jshint": "^2.6.0",
+    "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-coverage": "^0.2.7",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^2.1.0"
+  }
+}
