@@ -66,6 +66,7 @@
     "after"      : false,
     "afterEach"  : false,
     /* JASMINE */
-    "expect"     : false
+    "expect"     : false,
+    "fixture"    : false
   }
 }

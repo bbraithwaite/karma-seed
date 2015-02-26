@@ -24,14 +24,18 @@
   "homepage": "https://github.com/bbraithwaite/karma-seed",
   "devDependencies": {
     "chai": "^2.1.0",
+    "http-server": "^0.7.5",
     "istanbul": "^0.3.6",
-    "jasmine-core": "^2.2.0",
-    "jasmine-fixture": "^1.2.2",
     "jshint": "^2.6.0",
     "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^0.1.7",
+    "karma-cli": "0.0.4",
     "karma-coverage": "^0.2.7",
+    "karma-fixture": "^0.2.1-1",
+    "karma-html2js-preprocessor": "^0.1.0",
     "karma-jasmine": "^0.3.5",
+    "karma-mocha": "^0.1.10",
     "karma-phantomjs-launcher": "^0.1.4",
     "mocha": "^2.1.0"
   }
